@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, header {
+    background: lightgray;
+}
+
+header {
+    text-align: right;
+}
+
+main {
+    background: lightgray url("../images/recreation\ of\ the\ live\ and\ learn\ background.png") no-repeat top left;
+    background-size: cover;
+    border-bottom: black 5px solid;
+}
