@@ -45,7 +45,9 @@ main {
     text-align: center;
 }
 main > p {
-    background-color: hsl(0 0% 62% / 0.410);
+    /* background-color: hsl(0 0% 62% / 0.410); */
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 section {
