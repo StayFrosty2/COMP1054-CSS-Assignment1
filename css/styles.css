@@ -59,8 +59,11 @@ section h3 {
 section p {
     font-size: 1.5rem;
 }
-
 h4 {
     text-transform: uppercase;
     font-size: 3rem;
+}
+
+footer p {
+    text-align: center;
 }
