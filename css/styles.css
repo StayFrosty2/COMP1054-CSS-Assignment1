@@ -19,7 +19,6 @@ header {
 }
 header div {
     border-left: red 20px solid;
-    width: 500px;
 }
 h1 {
     text-transform: uppercase;
