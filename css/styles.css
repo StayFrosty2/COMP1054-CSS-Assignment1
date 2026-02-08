@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/* Size things by the Border Box */
 html {
     box-sizing: border-box;
 }
@@ -7,11 +7,13 @@ html {
     box-sizing: inherit;
 }
 
+/* Size the body and change the font for everyhing */
 body {
     background: lightgray;
     font-family: monospace;
 }
 
+/* Header */
 header {
     text-align: right;
     padding: 1% 5% 1% 65%;
@@ -42,6 +44,7 @@ h1, h2 em{
     filter: drop-shadow(0px 2px 10px yellow);
 }
 
+/* Main Section, including the lyrics */
 main {
     display: flex;
     flex-direction: column;
@@ -76,10 +79,12 @@ h4 {
     font-size: 3rem;
 }
 
+/* Footer */
 footer p {
     text-align: center;
 }
 
+/* Styling for the About page */
 main div {
     display: flex;
     flex-direction: row;
